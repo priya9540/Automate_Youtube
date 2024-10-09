@@ -1,0 +1,1503 @@
+[1728447408.858][INFO]: Starting ChromeDriver 129.0.6668.91 (b00bc8b76d601dfd7471dbed072a547601ee7665-refs/branch-heads/6668@{#1505}) on port 3893
+[1728447408.858][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1728447408.865][INFO]: ChromeDriver was started successfully on port 3893
+[1728447409.554][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--remote-allow-origins=*" ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1728447409.556][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1728447409.557][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1728447409.559][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1728447409.559][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1728447409.561][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-allow-origins=* --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\dell\AppData\Local\Temp\scoped_dir22200_906224056" data:,
+[1728447410.514][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1728447410.619][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "129.0.6668.90",
+      "chrome": {
+         "chromedriverVersion": "129.0.6668.91 (b00bc8b76d601dfd7471dbed072a547601ee7665-refs/branch-heads/6668@{#1505})",
+         "userDataDir": "C:\\Users\\dell\\AppData\\Local\\Temp\\scoped_dir22200_906224056"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:58009"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "277380e5eb4f16972b995ffde6c9978d"
+}
+[1728447411.299][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND MaximizeWindow {
+}
+[1728447411.299][INFO]: Waiting for pending navigations...
+[1728447411.300][INFO]: Done waiting for pending navigations. Status: ok
+[1728447411.407][INFO]: Waiting for pending navigations...
+[1728447411.412][INFO]: Done waiting for pending navigations. Status: ok
+[1728447411.412][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE MaximizeWindow {
+   "height": 744,
+   "width": 1382,
+   "x": -8,
+   "y": -8
+}
+[1728447411.443][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND Navigate {
+   "url": "https://www.youtube.com"
+}
+[1728447411.443][INFO]: Waiting for pending navigations...
+[1728447411.446][INFO]: Done waiting for pending navigations. Status: ok
+[1728447411.846][INFO]: Waiting for pending navigations...
+[1728447415.997][INFO]: Done waiting for pending navigations. Status: ok
+[1728447415.997][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE Navigate
+[1728447421.029][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetUrl {
+}
+[1728447421.029][INFO]: Waiting for pending navigations...
+[1728447421.031][INFO]: Done waiting for pending navigations. Status: ok
+[1728447421.038][INFO]: Waiting for pending navigations...
+[1728447421.039][INFO]: Done waiting for pending navigations. Status: ok
+[1728447421.039][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetUrl "https://www.youtube.com/"
+[1728447421.050][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@href='https://www.youtube.com/about/']"
+}
+[1728447421.051][INFO]: Waiting for pending navigations...
+[1728447421.052][INFO]: Done waiting for pending navigations. Status: ok
+[1728447421.077][INFO]: Waiting for pending navigations...
+[1728447421.079][INFO]: Done waiting for pending navigations. Status: ok
+[1728447421.079][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.DDBF07AAFCF5F3F1B9FF67462E77F042.e.20"
+}
+[1728447421.094][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.DDBF07AAFCF5F3F1B9FF67462E77F042.e.20"
+   } ],
+   "script": "arguments[0].scrollIntoView(true);"
+}
+[1728447421.094][INFO]: Waiting for pending navigations...
+[1728447421.095][INFO]: Done waiting for pending navigations. Status: ok
+[1728447421.104][INFO]: Waiting for pending navigations...
+[1728447421.112][INFO]: Done waiting for pending navigations. Status: ok
+[1728447421.112][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ExecuteScript null
+[1728447421.136][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.DDBF07AAFCF5F3F1B9FF67462E77F042.e.20"
+   } ],
+   "script": "arguments[0].click();"
+}
+[1728447421.136][INFO]: Waiting for pending navigations...
+[1728447421.184][INFO]: Done waiting for pending navigations. Status: ok
+[1728447421.233][INFO]: Waiting for pending navigations...
+[1728447422.217][INFO]: Done waiting for pending navigations. Status: ok
+[1728447422.217][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ExecuteScript null
+[1728447422.241][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetUrl {
+}
+[1728447422.241][INFO]: Waiting for pending navigations...
+[1728447422.242][INFO]: Done waiting for pending navigations. Status: ok
+[1728447422.249][INFO]: Waiting for pending navigations...
+[1728447422.250][INFO]: Done waiting for pending navigations. Status: ok
+[1728447422.250][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetUrl "https://about.youtube/"
+[1728447422.254][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//main[@id='content']"
+}
+[1728447422.255][INFO]: Waiting for pending navigations...
+[1728447422.256][INFO]: Done waiting for pending navigations. Status: ok
+[1728447422.286][INFO]: Waiting for pending navigations...
+[1728447422.287][INFO]: Done waiting for pending navigations. Status: ok
+[1728447422.287][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.103B997B8F432DFE2ED7F80BEA14EFED.e.3"
+}
+[1728447422.300][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.103B997B8F432DFE2ED7F80BEA14EFED.e.3"
+}
+[1728447422.300][INFO]: Waiting for pending navigations...
+[1728447422.301][INFO]: Done waiting for pending navigations. Status: ok
+[1728447422.326][INFO]: Waiting for pending navigations...
+[1728447422.327][INFO]: Done waiting for pending navigations. Status: ok
+[1728447422.327][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "About YouTube\nOur mission is to give everyone a voice and show them the world.\nWe believe that everyone deserves to have a voice, and that the world is a better place when we listen, share and buil..."
+[1728447422.337][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND Navigate {
+   "url": "https://www.youtube.com"
+}
+[1728447422.337][INFO]: Waiting for pending navigations...
+[1728447422.338][INFO]: Done waiting for pending navigations. Status: ok
+[1728447422.495][INFO]: Waiting for pending navigations...
+[1728447426.040][INFO]: Done waiting for pending navigations. Status: ok
+[1728447426.041][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE Navigate
+[1728447431.053][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@href='/feed/storefront?bp=ogUCKAU%3D']"
+}
+[1728447431.053][INFO]: Waiting for pending navigations...
+[1728447431.054][INFO]: Done waiting for pending navigations. Status: ok
+[1728447431.076][INFO]: Waiting for pending navigations...
+[1728447431.077][INFO]: Done waiting for pending navigations. Status: ok
+[1728447431.077][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.18"
+}
+[1728447431.083][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.18"
+   } ],
+   "script": "arguments[0].scrollIntoView(true);"
+}
+[1728447431.083][INFO]: Waiting for pending navigations...
+[1728447431.084][INFO]: Done waiting for pending navigations. Status: ok
+[1728447431.091][INFO]: Waiting for pending navigations...
+[1728447431.095][INFO]: Done waiting for pending navigations. Status: ok
+[1728447431.096][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ExecuteScript null
+[1728447431.112][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.18"
+   } ],
+   "script": "arguments[0].click();"
+}
+[1728447431.112][INFO]: Waiting for pending navigations...
+[1728447431.113][INFO]: Done waiting for pending navigations. Status: ok
+[1728447431.181][INFO]: Waiting for pending navigations...
+[1728447431.209][INFO]: Done waiting for pending navigations. Status: ok
+[1728447431.209][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ExecuteScript null
+[1728447436.224][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@aria-label='Next']"
+}
+[1728447436.224][INFO]: Waiting for pending navigations...
+[1728447436.225][INFO]: Done waiting for pending navigations. Status: ok
+[1728447436.251][INFO]: Waiting for pending navigations...
+[1728447436.252][INFO]: Done waiting for pending navigations. Status: ok
+[1728447436.252][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.46"
+}
+[1728447436.270][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.46"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1728447436.271][INFO]: Waiting for pending navigations...
+[1728447436.272][INFO]: Done waiting for pending navigations. Status: ok
+[1728447436.294][INFO]: Waiting for pending navigations...
+[1728447436.295][INFO]: Done waiting for pending navigations. Status: ok
+[1728447436.295][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ExecuteScript true
+[1728447436.814][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.46"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1728447436.815][INFO]: Waiting for pending navigations...
+[1728447436.816][INFO]: Done waiting for pending navigations. Status: ok
+[1728447436.839][INFO]: Waiting for pending navigations...
+[1728447436.845][INFO]: Done waiting for pending navigations. Status: ok
+[1728447436.845][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ExecuteScript true
+[1728447437.362][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.46"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1728447437.362][INFO]: Waiting for pending navigations...
+[1728447437.364][INFO]: Done waiting for pending navigations. Status: ok
+[1728447437.399][INFO]: Waiting for pending navigations...
+[1728447437.401][INFO]: Done waiting for pending navigations. Status: ok
+[1728447437.401][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ExecuteScript true
+[1728447437.918][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.46"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1728447437.918][INFO]: Waiting for pending navigations...
+[1728447437.919][INFO]: Done waiting for pending navigations. Status: ok
+[1728447437.927][INFO]: Waiting for pending navigations...
+[1728447437.928][INFO]: Done waiting for pending navigations. Status: ok
+[1728447437.928][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ExecuteScript false
+[1728447437.935][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//ytd-grid-movie-renderer[@class='style-scope yt-horizontal-list-renderer'][last()]"
+}
+[1728447437.935][INFO]: Waiting for pending navigations...
+[1728447437.936][INFO]: Done waiting for pending navigations. Status: ok
+[1728447437.958][INFO]: Waiting for pending navigations...
+[1728447437.959][INFO]: Done waiting for pending navigations. Status: ok
+[1728447437.959][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.59"
+}
+[1728447437.966][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.59",
+   "using": "xpath",
+   "value": "//span[@id='video-title']"
+}
+[1728447437.966][INFO]: Waiting for pending navigations...
+[1728447437.967][INFO]: Done waiting for pending navigations. Status: ok
+[1728447437.985][INFO]: Waiting for pending navigations...
+[1728447437.985][INFO]: Done waiting for pending navigations. Status: ok
+[1728447437.986][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.60"
+}
+[1728447437.990][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.60"
+}
+[1728447437.990][INFO]: Waiting for pending navigations...
+[1728447437.991][INFO]: Done waiting for pending navigations. Status: ok
+[1728447438.009][INFO]: Waiting for pending navigations...
+[1728447438.009][INFO]: Done waiting for pending navigations. Status: ok
+[1728447438.009][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText ""
+[1728447438.014][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.59",
+   "using": "xpath",
+   "value": ".//div[@class='badge  badge-style-type-simple style-scope ytd-badge-supported-renderer style-scope ytd-badge-supported-renderer']"
+}
+[1728447438.014][INFO]: Waiting for pending navigations...
+[1728447438.015][INFO]: Done waiting for pending navigations. Status: ok
+[1728447438.033][INFO]: Waiting for pending navigations...
+[1728447438.034][INFO]: Done waiting for pending navigations. Status: ok
+[1728447438.034][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.61"
+}
+[1728447438.046][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.61"
+   }, "aria-label" ],
+   "script": "/* getAttribute */return (function(){return (function(){var d=this||self;function f(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var h=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},k=Array.prototype.forEach?function(a,b){Array.prototype.forEach.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,g=0;g\u003Cc;g++)g in e&&b.call(void 0,e[g],g,a)};function l(a,b){this.code=a;this.a=m[a]||n;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}f(l,Error);var n=\"unknown error\",m={15:\"element not selectable\",11:\"element not visible\"};m[31]=n;m[30]=n;m[24]=\"invalid cookie domain\";m[29]=\"invalid element coordinates\";m[12]=\"invalid element state\";m[32]=\"invalid selector\";\nm[51]=\"invalid selector\";m[52]=\"invalid selector\";m[17]=\"javascript error\";m[405]=\"unsupported operation\";m[34]=\"move target out of bounds\";m[27]=\"no such alert\";m[7]=\"no such element\";m[8]=\"no such frame\";m[23]=\"no such window\";m[28]=\"script timeout\";m[33]=\"session not created\";m[10]=\"stale element reference\";m[21]=\"timeout\";m[25]=\"unable to set cookie\";m[26]=\"unexpected alert open\";m[13]=n;m[9]=\"unknown command\";var p;a:{var q=d.navigator;if(q){var r=q.userAgent;if(r){p=r;break a}}p=\"\"}function t(a){return-1!=p.indexOf(a)};function u(){return t(\"Firefox\")||t(\"FxiOS\")}function v(){return(t(\"Chrome\")||t(\"CriOS\"))&&!t(\"Edge\")};function w(){return t(\"iPhone\")&&!t(\"iPod\")&&!t(\"iPad\")};var y=t(\"Opera\"),z=t(\"Trident\")||t(\"MSIE\"),A=t(\"Edge\"),B=t(\"Gecko\")&&!(-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\"))&&!(t(\"Trident\")||t(\"MSIE\"))&&!t(\"Edge\"),C=-1!=p.toLowerCase().indexOf(\"webkit\")&&!t(\"Edge\");function D(){var a=d.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=p;if(B)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(A)return/Edge\\/([\\d\\.]+)/.exec(a);if(z)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(C)return/WebKit\\/(\\S+)/.exec(a);if(y)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(z){var H=D();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var I;I=d.document&&z?D():void 0;var J=u(),K=w()||t(\"iPod\"),L=t(\"iPad\"),M=t(\"Android\")&&!(v()||u()||t(\"Opera\")||t(\"Silk\")),N=v(),aa=t(\"Safari\")&&!(v()||t(\"Coast\")||t(\"Opera\")||t(\"Edge\")||t(\"Edg/\")||t(\"OPR\")||u()||t(\"Silk\")||t(\"Android\"))&&!(w()||t(\"iPad\")||t(\"iPod\"));function O(a){return(a=a.exec(p))?a[1]:\"\"}(function(){if(J)return O(/Firefox\\/([0-9.]+)/);if(z||A||y)return E;if(N)return w()||t(\"iPad\")||t(\"iPod\")?O(/CriOS\\/([0-9.]+)/):O(/Chrome\\/([0-9.]+)/);if(aa&&!(w()||t(\"iPad\")||t(\"iPod\")))return O(/Version\\/([0-9.]+)/);if(K||L){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(p);if(a)return a[1]+\".\"+a[2]}else if(M)return(a=O(/Android\\s+([0-9.]+)/))?a:O(/Version\\/([0-9.]+)/);return\"\"})();var P=z&&!(8\u003C=Number(I)),ba=z&&!(9\u003C=Number(I));var ca={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},Q={IMG:\" \",BR:\"\\n\"};function R(a,b,c){if(!(a.nodeName in ca))if(3==a.nodeType)c?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in Q)b.push(Q[a.nodeName]);else for(a=a.firstChild;a;)R(a,b,c),a=a.nextSibling};function S(a,b){b=b.toLowerCase();return\"style\"==b?da(a.style.cssText):P&&\"value\"==b&&T(a,\"INPUT\")?a.value:ba&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ea=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction da(a){var b=[];k(a.split(ea),function(c){var e=c.indexOf(\":\");0\u003Ce&&(c=[c.slice(0,e),c.slice(e+1)],2==c.length&&b.push(c[0].toLowerCase(),\":\",c[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function U(a,b){P&&\"value\"==b&&T(a,\"OPTION\")&&null===S(a,\"value\")?(b=[],R(a,b,!1),a=b.join(\"\")):a=a[b];return a}function T(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction V(a){return T(a,\"OPTION\")?!0:T(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var fa={\"class\":\"className\",readonly:\"readOnly\"},ha=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function W(a,b){var c=null,e=b.toLowerCase();if(\"style\"==e)return(c=a.style)&&\"string\"!=typeof c&&(c=c.cssText),c;if((\"selected\"==e||\"checked\"==e)&&V(a)){if(!V(a))throw new l(15,\"Element is not selectable\");b=\"selected\";c=a.type&&a.type.toLowerCase();if(\"checkbox\"==c||\"radio\"==c)b=\"checked\";return U(a,b)?\"true\":null}var g=T(a,\"A\");if(T(a,\"IMG\")&&\"src\"==e||g&&\"href\"==e)return(c=S(a,e))&&(c=U(a,e)),c;if(\"spellcheck\"==e){c=S(a,e);if(null!==c){if(\"false\"==c.toLowerCase())return\"false\";if(\"true\"==c.toLowerCase())return\"true\"}return U(a,\ne)+\"\"}g=fa[b]||b;if(0\u003C=h(ha,e))return(c=null!==S(a,b)||U(a,g))?\"true\":null;try{var x=U(a,g)}catch(ia){}(e=null==x)||(e=typeof x,e=\"object\"==e&&null!=x||\"function\"==e);e?c=S(a,b):c=x;return null!=c?c.toString():null}var X=[\"_\"],Y=d;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===W?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=W;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1728447438.047][INFO]: Waiting for pending navigations...
+[1728447438.048][INFO]: Done waiting for pending navigations. Status: ok
+[1728447438.056][INFO]: Waiting for pending navigations...
+[1728447438.057][INFO]: Done waiting for pending navigations. Status: ok
+[1728447438.057][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ExecuteScript "U"
+[1728447438.063][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.59",
+   "using": "xpath",
+   "value": ".//span[@class='grid-movie-renderer-metadata style-scope ytd-grid-movie-renderer']"
+}
+[1728447438.063][INFO]: Waiting for pending navigations...
+[1728447438.064][INFO]: Done waiting for pending navigations. Status: ok
+[1728447438.080][INFO]: Waiting for pending navigations...
+[1728447438.081][INFO]: Done waiting for pending navigations. Status: ok
+[1728447438.081][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.62"
+}
+[1728447438.085][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.9AB4A7AF112DCEA812E268160C8206B4.e.62"
+}
+[1728447438.086][INFO]: Waiting for pending navigations...
+[1728447438.086][INFO]: Done waiting for pending navigations. Status: ok
+[1728447438.097][INFO]: Waiting for pending navigations...
+[1728447438.098][INFO]: Done waiting for pending navigations. Status: ok
+[1728447438.098][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "Animation • 2024"
+[1728447438.109][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND Navigate {
+   "url": "https://www.youtube.com"
+}
+[1728447438.109][INFO]: Waiting for pending navigations...
+[1728447438.110][INFO]: Done waiting for pending navigations. Status: ok
+[1728447438.443][INFO]: Waiting for pending navigations...
+[1728447441.205][INFO]: Done waiting for pending navigations. Status: ok
+[1728447441.205][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE Navigate
+[1728447446.217][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@href='/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ']"
+}
+[1728447446.217][INFO]: Waiting for pending navigations...
+[1728447446.218][INFO]: Done waiting for pending navigations. Status: ok
+[1728447446.235][INFO]: Waiting for pending navigations...
+[1728447446.236][INFO]: Done waiting for pending navigations. Status: ok
+[1728447446.236][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.FA43A7F74C2100A2402CCC1BDC1E4EE9.e.80"
+}
+[1728447446.240][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ClickElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.FA43A7F74C2100A2402CCC1BDC1E4EE9.e.80"
+}
+[1728447446.240][INFO]: Waiting for pending navigations...
+[1728447446.241][INFO]: Done waiting for pending navigations. Status: ok
+[1728447446.389][INFO]: Waiting for pending navigations...
+[1728447446.457][INFO]: Done waiting for pending navigations. Status: ok
+[1728447446.458][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ClickElement
+[1728447476.473][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "(//button[@aria-label='Next'])[1]"
+}
+[1728447476.473][INFO]: Waiting for pending navigations...
+[1728447476.474][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.495][INFO]: Waiting for pending navigations...
+[1728447476.505][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.505][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.FA43A7F74C2100A2402CCC1BDC1E4EE9.e.108"
+}
+[1728447476.512][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.FA43A7F74C2100A2402CCC1BDC1E4EE9.e.108"
+   } ],
+   "script": "arguments[0].scrollIntoView(true);"
+}
+[1728447476.512][INFO]: Waiting for pending navigations...
+[1728447476.513][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.523][INFO]: Waiting for pending navigations...
+[1728447476.524][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.524][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ExecuteScript null
+[1728447476.529][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.FA43A7F74C2100A2402CCC1BDC1E4EE9.e.108"
+   } ],
+   "script": "/* isDisplayed */return (function(){return (function(){var g=this||self;\nfunction aa(a){var b=typeof a;if(\"object\"==b)if(a){if(a instanceof Array)return\"array\";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if(\"[object Window]\"==c)return\"object\";if(\"[object Array]\"==c||\"number\"==typeof a.length&&\"undefined\"!=typeof a.splice&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"splice\"))return\"array\";if(\"[object Function]\"==c||\"undefined\"!=typeof a.call&&\"undefined\"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable(\"call\"))return\"function\"}else return\"null\";else if(\"function\"==\nb&&\"undefined\"==typeof a.call)return\"object\";return b}function ca(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var da=Array.prototype.indexOf?function(a,b){return Array.prototype.indexOf.call(a,b,void 0)}:function(a,b){if(\"string\"===typeof a)return\"string\"!==typeof b||1!=b.length?-1:a.indexOf(b,0);for(var c=0;c\u003Ca.length;c++)if(c in a&&a[c]===b)return c;return-1},ea=Array.prototype.some?function(a,b){return Array.prototype.some.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&b.call(void 0,e[d],d,a))return!0;return!1},fa=Array.prototype.every?function(a,\nb){return Array.prototype.every.call(a,b,void 0)}:function(a,b){for(var c=a.length,e=\"string\"===typeof a?a.split(\"\"):a,d=0;d\u003Cc;d++)if(d in e&&!b.call(void 0,e[d],d,a))return!1;return!0};var ha={aliceblue:\"#f0f8ff\",antiquewhite:\"#faebd7\",aqua:\"#00ffff\",aquamarine:\"#7fffd4\",azure:\"#f0ffff\",beige:\"#f5f5dc\",bisque:\"#ffe4c4\",black:\"#000000\",blanchedalmond:\"#ffebcd\",blue:\"#0000ff\",blueviolet:\"#8a2be2\",brown:\"#a52a2a\",burlywood:\"#deb887\",cadetblue:\"#5f9ea0\",chartreuse:\"#7fff00\",chocolate:\"#d2691e\",coral:\"#ff7f50\",cornflowerblue:\"#6495ed\",cornsilk:\"#fff8dc\",crimson:\"#dc143c\",cyan:\"#00ffff\",darkblue:\"#00008b\",darkcyan:\"#008b8b\",darkgoldenrod:\"#b8860b\",darkgray:\"#a9a9a9\",darkgreen:\"#006400\",\ndarkgrey:\"#a9a9a9\",darkkhaki:\"#bdb76b\",darkmagenta:\"#8b008b\",darkolivegreen:\"#556b2f\",darkorange:\"#ff8c00\",darkorchid:\"#9932cc\",darkred:\"#8b0000\",darksalmon:\"#e9967a\",darkseagreen:\"#8fbc8f\",darkslateblue:\"#483d8b\",darkslategray:\"#2f4f4f\",darkslategrey:\"#2f4f4f\",darkturquoise:\"#00ced1\",darkviolet:\"#9400d3\",deeppink:\"#ff1493\",deepskyblue:\"#00bfff\",dimgray:\"#696969\",dimgrey:\"#696969\",dodgerblue:\"#1e90ff\",firebrick:\"#b22222\",floralwhite:\"#fffaf0\",forestgreen:\"#228b22\",fuchsia:\"#ff00ff\",gainsboro:\"#dcdcdc\",\nghostwhite:\"#f8f8ff\",gold:\"#ffd700\",goldenrod:\"#daa520\",gray:\"#808080\",green:\"#008000\",greenyellow:\"#adff2f\",grey:\"#808080\",honeydew:\"#f0fff0\",hotpink:\"#ff69b4\",indianred:\"#cd5c5c\",indigo:\"#4b0082\",ivory:\"#fffff0\",khaki:\"#f0e68c\",lavender:\"#e6e6fa\",lavenderblush:\"#fff0f5\",lawngreen:\"#7cfc00\",lemonchiffon:\"#fffacd\",lightblue:\"#add8e6\",lightcoral:\"#f08080\",lightcyan:\"#e0ffff\",lightgoldenrodyellow:\"#fafad2\",lightgray:\"#d3d3d3\",lightgreen:\"#90ee90\",lightgrey:\"#d3d3d3\",lightpink:\"#ffb6c1\",lightsalmon:\"#ffa07a\",\nlightseagreen:\"#20b2aa\",lightskyblue:\"#87cefa\",lightslategray:\"#778899\",lightslategrey:\"#778899\",lightsteelblue:\"#b0c4de\",lightyellow:\"#ffffe0\",lime:\"#00ff00\",limegreen:\"#32cd32\",linen:\"#faf0e6\",magenta:\"#ff00ff\",maroon:\"#800000\",mediumaquamarine:\"#66cdaa\",mediumblue:\"#0000cd\",mediumorchid:\"#ba55d3\",mediumpurple:\"#9370db\",mediumseagreen:\"#3cb371\",mediumslateblue:\"#7b68ee\",mediumspringgreen:\"#00fa9a\",mediumturquoise:\"#48d1cc\",mediumvioletred:\"#c71585\",midnightblue:\"#191970\",mintcream:\"#f5fffa\",mistyrose:\"#ffe4e1\",\nmoccasin:\"#ffe4b5\",navajowhite:\"#ffdead\",navy:\"#000080\",oldlace:\"#fdf5e6\",olive:\"#808000\",olivedrab:\"#6b8e23\",orange:\"#ffa500\",orangered:\"#ff4500\",orchid:\"#da70d6\",palegoldenrod:\"#eee8aa\",palegreen:\"#98fb98\",paleturquoise:\"#afeeee\",palevioletred:\"#db7093\",papayawhip:\"#ffefd5\",peachpuff:\"#ffdab9\",peru:\"#cd853f\",pink:\"#ffc0cb\",plum:\"#dda0dd\",powderblue:\"#b0e0e6\",purple:\"#800080\",red:\"#ff0000\",rosybrown:\"#bc8f8f\",royalblue:\"#4169e1\",saddlebrown:\"#8b4513\",salmon:\"#fa8072\",sandybrown:\"#f4a460\",seagreen:\"#2e8b57\",\nseashell:\"#fff5ee\",sienna:\"#a0522d\",silver:\"#c0c0c0\",skyblue:\"#87ceeb\",slateblue:\"#6a5acd\",slategray:\"#708090\",slategrey:\"#708090\",snow:\"#fffafa\",springgreen:\"#00ff7f\",steelblue:\"#4682b4\",tan:\"#d2b48c\",teal:\"#008080\",thistle:\"#d8bfd8\",tomato:\"#ff6347\",turquoise:\"#40e0d0\",violet:\"#ee82ee\",wheat:\"#f5deb3\",white:\"#ffffff\",whitesmoke:\"#f5f5f5\",yellow:\"#ffff00\",yellowgreen:\"#9acd32\"};var ia=\"backgroundColor borderTopColor borderRightColor borderBottomColor borderLeftColor color outlineColor\".split(\" \"),ja=/#([0-9a-fA-F])([0-9a-fA-F])([0-9a-fA-F])/,ka=/^#(?:[0-9a-f]{3}){1,2}$/i,la=/^(?:rgba)?\\((\\d{1,3}),\\s?(\\d{1,3}),\\s?(\\d{1,3}),\\s?(0|1|0\\.\\d*)\\)$/i,ma=/^(?:rgb)?\\((0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2}),\\s?(0|[1-9]\\d{0,2})\\)$/i;function m(a,b){this.code=a;this.a=p[a]||r;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(c){return c.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}ca(m,Error);var r=\"unknown error\",p={15:\"element not selectable\",11:\"element not visible\"};p[31]=r;p[30]=r;p[24]=\"invalid cookie domain\";p[29]=\"invalid element coordinates\";p[12]=\"invalid element state\";\np[32]=\"invalid selector\";p[51]=\"invalid selector\";p[52]=\"invalid selector\";p[17]=\"javascript error\";p[405]=\"unsupported operation\";p[34]=\"move target out of bounds\";p[27]=\"no such alert\";p[7]=\"no such element\";p[8]=\"no such frame\";p[23]=\"no such window\";p[28]=\"script timeout\";p[33]=\"session not created\";p[10]=\"stale element reference\";p[21]=\"timeout\";p[25]=\"unable to set cookie\";p[26]=\"unexpected alert open\";p[13]=r;p[9]=\"unknown command\";var u=String.prototype.trim?function(a){return a.trim()}:function(a){return/^[\\s\\xa0]*([\\s\\S]*?)[\\s\\xa0]*$/.exec(a)[1]};\nfunction na(a,b){var c=0;a=u(String(a)).split(\".\");b=u(String(b)).split(\".\");for(var e=Math.max(a.length,b.length),d=0;0==c&&d\u003Ce;d++){var f=a[d]||\"\",h=b[d]||\"\";do{f=/(\\d*)(\\D*)(.*)/.exec(f)||[\"\",\"\",\"\",\"\"];h=/(\\d*)(\\D*)(.*)/.exec(h)||[\"\",\"\",\"\",\"\"];if(0==f[0].length&&0==h[0].length)break;c=v(0==f[1].length?0:parseInt(f[1],10),0==h[1].length?0:parseInt(h[1],10))||v(0==f[2].length,0==h[2].length)||v(f[2],h[2]);f=f[3];h=h[3]}while(0==c)}return c}function v(a,b){return a\u003Cb?-1:a>b?1:0};var w;a:{var oa=g.navigator;if(oa){var sa=oa.userAgent;if(sa){w=sa;break a}}w=\"\"}function x(a){return-1!=w.indexOf(a)};function y(){return x(\"Firefox\")||x(\"FxiOS\")}function A(){return(x(\"Chrome\")||x(\"CriOS\"))&&!x(\"Edge\")};function ta(a){return String(a).replace(/\\-([a-z])/g,function(b,c){return c.toUpperCase()})};function B(){return x(\"iPhone\")&&!x(\"iPod\")&&!x(\"iPad\")};function ua(a,b){var c=va;return Object.prototype.hasOwnProperty.call(c,a)?c[a]:c[a]=b(a)};var wa=x(\"Opera\"),C=x(\"Trident\")||x(\"MSIE\"),xa=x(\"Edge\"),ya=x(\"Gecko\")&&!(-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\"))&&!(x(\"Trident\")||x(\"MSIE\"))&&!x(\"Edge\"),za=-1!=w.toLowerCase().indexOf(\"webkit\")&&!x(\"Edge\");function Aa(){var a=g.document;return a?a.documentMode:void 0}var E;\na:{var F=\"\",G=function(){var a=w;if(ya)return/rv:([^\\);]+)(\\)|;)/.exec(a);if(xa)return/Edge\\/([\\d\\.]+)/.exec(a);if(C)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(za)return/WebKit\\/(\\S+)/.exec(a);if(wa)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();G&&(F=G?G[1]:\"\");if(C){var H=Aa();if(null!=H&&H>parseFloat(F)){E=String(H);break a}}E=F}var va={};function Ba(a){return ua(a,function(){return 0\u003C=na(E,a)})}var I;I=g.document&&C?Aa():void 0;var Ca=y(),Da=B()||x(\"iPod\"),Ea=x(\"iPad\"),Fa=x(\"Android\")&&!(A()||y()||x(\"Opera\")||x(\"Silk\")),Ga=A(),Ha=x(\"Safari\")&&!(A()||x(\"Coast\")||x(\"Opera\")||x(\"Edge\")||x(\"Edg/\")||x(\"OPR\")||y()||x(\"Silk\")||x(\"Android\"))&&!(B()||x(\"iPad\")||x(\"iPod\"));function J(a){return(a=a.exec(w))?a[1]:\"\"}(function(){if(Ca)return J(/Firefox\\/([0-9.]+)/);if(C||xa||wa)return E;if(Ga)return B()||x(\"iPad\")||x(\"iPod\")?J(/CriOS\\/([0-9.]+)/):J(/Chrome\\/([0-9.]+)/);if(Ha&&!(B()||x(\"iPad\")||x(\"iPod\")))return J(/Version\\/([0-9.]+)/);if(Da||Ea){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(w);if(a)return a[1]+\".\"+a[2]}else if(Fa)return(a=J(/Android\\s+([0-9.]+)/))?a:J(/Version\\/([0-9.]+)/);return\"\"})();var K;if(K=C)K=!(9\u003C=Number(I));var Ia=K;function L(a,b){this.x=void 0!==a?a:0;this.y=void 0!==b?b:0}L.prototype.ceil=function(){this.x=Math.ceil(this.x);this.y=Math.ceil(this.y);return this};L.prototype.floor=function(){this.x=Math.floor(this.x);this.y=Math.floor(this.y);return this};L.prototype.round=function(){this.x=Math.round(this.x);this.y=Math.round(this.y);return this};function M(a,b){this.width=a;this.height=b}M.prototype.aspectRatio=function(){return this.width/this.height};M.prototype.ceil=function(){this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};M.prototype.floor=function(){this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};M.prototype.round=function(){this.width=Math.round(this.width);this.height=Math.round(this.height);return this};function N(a){return 9==a.nodeType?a:a.ownerDocument||a.document}function Ja(a,b){a&&(a=a.parentNode);for(var c=0;a;){if(b(a))return a;a=a.parentNode;c++}return null}function Ka(a){this.a=a||g.document||document};function P(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)};function Q(a,b,c,e){this.f=a;this.a=b;this.b=c;this.c=e}Q.prototype.ceil=function(){this.f=Math.ceil(this.f);this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.c=Math.ceil(this.c);return this};Q.prototype.floor=function(){this.f=Math.floor(this.f);this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.c=Math.floor(this.c);return this};Q.prototype.round=function(){this.f=Math.round(this.f);this.a=Math.round(this.a);this.b=Math.round(this.b);this.c=Math.round(this.c);return this};function R(a,b,c,e){this.a=a;this.b=b;this.width=c;this.height=e}R.prototype.ceil=function(){this.a=Math.ceil(this.a);this.b=Math.ceil(this.b);this.width=Math.ceil(this.width);this.height=Math.ceil(this.height);return this};R.prototype.floor=function(){this.a=Math.floor(this.a);this.b=Math.floor(this.b);this.width=Math.floor(this.width);this.height=Math.floor(this.height);return this};\nR.prototype.round=function(){this.a=Math.round(this.a);this.b=Math.round(this.b);this.width=Math.round(this.width);this.height=Math.round(this.height);return this};var La=\"function\"===typeof ShadowRoot;function S(a){for(a=a.parentNode;a&&1!=a.nodeType&&9!=a.nodeType&&11!=a.nodeType;)a=a.parentNode;return P(a)?a:null}\nfunction T(a,b){b=ta(b);if(\"float\"==b||\"cssFloat\"==b||\"styleFloat\"==b)b=Ia?\"styleFloat\":\"cssFloat\";a:{var c=b;var e=N(a);if(e.defaultView&&e.defaultView.getComputedStyle&&(e=e.defaultView.getComputedStyle(a,null))){c=e[c]||e.getPropertyValue(c)||\"\";break a}c=\"\"}a=c||Ma(a,b);if(null===a)a=null;else if(0\u003C=da(ia,b)){b:{var d=a.match(la);if(d&&(b=Number(d[1]),c=Number(d[2]),e=Number(d[3]),d=Number(d[4]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e&&0\u003C=d&&1>=d)){b=[b,c,e,d];break b}b=null}if(!b)b:{if(e=a.match(ma))if(b=\nNumber(e[1]),c=Number(e[2]),e=Number(e[3]),0\u003C=b&&255>=b&&0\u003C=c&&255>=c&&0\u003C=e&&255>=e){b=[b,c,e,1];break b}b=null}if(!b)b:{b=a.toLowerCase();c=ha[b.toLowerCase()];if(!c&&(c=\"#\"==b.charAt(0)?b:\"#\"+b,4==c.length&&(c=c.replace(ja,\"#$1$1$2$2$3$3\")),!ka.test(c))){b=null;break b}b=[parseInt(c.substr(1,2),16),parseInt(c.substr(3,2),16),parseInt(c.substr(5,2),16),1]}a=b?\"rgba(\"+b.join(\", \")+\")\":a}return a}\nfunction Ma(a,b){var c=a.currentStyle||a.style,e=c[b];void 0===e&&\"function\"==aa(c.getPropertyValue)&&(e=c.getPropertyValue(b));return\"inherit\"!=e?void 0!==e?e:null:(a=S(a))?Ma(a,b):null}\nfunction U(a,b,c){function e(h){var n=V(h);return 0\u003Cn.height&&0\u003Cn.width?!0:P(h,\"PATH\")&&(0\u003Cn.height||0\u003Cn.width)?(h=T(h,\"stroke-width\"),!!h&&0\u003CparseInt(h,10)):\"hidden\"!=T(h,\"overflow\")&&ea(h.childNodes,function(D){return 3==D.nodeType||P(D)&&e(D)})}function d(h){return Na(h)==W&&fa(h.childNodes,function(n){return!P(n)||d(n)||!e(n)})}if(!P(a))throw Error(\"Argument to isShown must be of type Element\");if(P(a,\"BODY\"))return!0;if(P(a,\"OPTION\")||P(a,\"OPTGROUP\"))return a=Ja(a,function(h){return P(h,\"SELECT\")}),\n!!a&&U(a,!0,c);var f=Oa(a);if(f)return!!f.image&&0\u003Cf.rect.width&&0\u003Cf.rect.height&&U(f.image,b,c);if(P(a,\"INPUT\")&&\"hidden\"==a.type.toLowerCase()||P(a,\"NOSCRIPT\"))return!1;f=T(a,\"visibility\");return\"collapse\"!=f&&\"hidden\"!=f&&c(a)&&(b||0!=Pa(a))&&e(a)?!d(a):!1}var W=\"hidden\";\nfunction Na(a){function b(k){function l(ba){if(ba==h)return!0;var pa=T(ba,\"display\");return 0==pa.lastIndexOf(\"inline\",0)||\"contents\"==pa||\"absolute\"==qa&&\"static\"==T(ba,\"position\")?!1:!0}var qa=T(k,\"position\");if(\"fixed\"==qa)return ra=!0,k==h?null:h;for(k=S(k);k&&!l(k);)k=S(k);return k}function c(k){var l=k;if(\"visible\"==D)if(k==h&&n)l=n;else if(k==n)return{x:\"visible\",y:\"visible\"};l={x:T(l,\"overflow-x\"),y:T(l,\"overflow-y\")};k==h&&(l.x=\"visible\"==l.x?\"auto\":l.x,l.y=\"visible\"==l.y?\"auto\":l.y);return l}\nfunction e(k){if(k==h){var l=(new Ka(f)).a;k=l.scrollingElement?l.scrollingElement:za||\"CSS1Compat\"!=l.compatMode?l.body||l.documentElement:l.documentElement;l=l.parentWindow||l.defaultView;k=C&&Ba(\"10\")&&l.pageYOffset!=k.scrollTop?new L(k.scrollLeft,k.scrollTop):new L(l.pageXOffset||k.scrollLeft,l.pageYOffset||k.scrollTop)}else k=new L(k.scrollLeft,k.scrollTop);return k}var d=Qa(a),f=N(a),h=f.documentElement,n=f.body,D=T(h,\"overflow\"),ra;for(a=b(a);a;a=b(a)){var q=c(a);if(\"visible\"!=q.x||\"visible\"!=\nq.y){var t=V(a);if(0==t.width||0==t.height)return W;var z=d.a\u003Ct.a,O=d.b\u003Ct.b;if(z&&\"hidden\"==q.x||O&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||O&&\"visible\"!=q.y){z=e(a);O=d.b\u003Ct.b-z.y;if(d.a\u003Ct.a-z.x&&\"visible\"!=q.x||O&&\"visible\"!=q.x)return W;d=Na(a);return d==W?W:\"scroll\"}z=d.c>=t.a+t.width;t=d.f>=t.b+t.height;if(z&&\"hidden\"==q.x||t&&\"hidden\"==q.y)return W;if(z&&\"visible\"!=q.x||t&&\"visible\"!=q.y){if(ra&&(q=e(a),d.c>=h.scrollWidth-q.x||d.a>=h.scrollHeight-q.y))return W;d=Na(a);return d==W?W:\"scroll\"}}}return\"none\"}\nfunction V(a){var b=Oa(a);if(b)return b.rect;if(P(a,\"HTML\"))return a=N(a),a=((a?a.parentWindow||a.defaultView:window)||window).document,a=\"CSS1Compat\"==a.compatMode?a.documentElement:a.body,a=new M(a.clientWidth,a.clientHeight),new R(0,0,a.width,a.height);try{var c=a.getBoundingClientRect()}catch(e){return new R(0,0,0,0)}b=new R(c.left,c.top,c.right-c.left,c.bottom-c.top);C&&a.ownerDocument.body&&(a=N(a),b.a-=a.documentElement.clientLeft+a.body.clientLeft,b.b-=a.documentElement.clientTop+a.body.clientTop);\nreturn b}\nfunction Oa(a){var b=P(a,\"MAP\");if(!b&&!P(a,\"AREA\"))return null;var c=b?a:P(a.parentNode,\"MAP\")?a.parentNode:null,e=null,d=null;if(c&&c.name){e='*[usemap=\"#'+c.name+'\"]';c=N(c);var f;if(f=\"function\"!=aa(c.querySelector)&&C&&(C?0\u003C=na(I,8):Ba(8))){f=c.querySelector;var h=typeof f;f=!(\"object\"==h&&null!=f||\"function\"==h)}if(f)throw Error(\"CSS selection is not supported\");if(!e)throw new m(32,\"No selector specified\");e=u(e);try{var n=c.querySelector(e)}catch(D){throw new m(32,\"An invalid or illegal selector was specified\");}if(e=\nn&&1==n.nodeType?n:null)d=V(e),b||\"default\"==a.shape.toLowerCase()||(a=Ra(a),b=Math.min(Math.max(a.a,0),d.width),n=Math.min(Math.max(a.b,0),d.height),d=new R(b+d.a,n+d.b,Math.min(a.width,d.width-b),Math.min(a.height,d.height-n)))}return{image:e,rect:d||new R(0,0,0,0)}}\nfunction Ra(a){var b=a.shape.toLowerCase();a=a.coords.split(\",\");if(\"rect\"==b&&4==a.length){b=a[0];var c=a[1];return new R(b,c,a[2]-b,a[3]-c)}if(\"circle\"==b&&3==a.length)return b=a[2],new R(a[0]-b,a[1]-b,2*b,2*b);if(\"poly\"==b&&2\u003Ca.length){b=a[0];c=a[1];for(var e=b,d=c,f=2;f+1\u003Ca.length;f+=2)b=Math.min(b,a[f]),e=Math.max(e,a[f]),c=Math.min(c,a[f+1]),d=Math.max(d,a[f+1]);return new R(b,c,e-b,d-c)}return new R(0,0,0,0)}function Qa(a){a=V(a);return new Q(a.b,a.a+a.width,a.b+a.height,a.a)}\nfunction Pa(a){if(Ia){if(\"relative\"==T(a,\"position\"))return 1;a=T(a,\"filter\");return(a=a.match(/^alpha\\(opacity=(\\d*)\\)/)||a.match(/^progid:DXImageTransform.Microsoft.Alpha\\(Opacity=(\\d*)\\)/))?Number(a[1])/100:1}return Sa(a)}function Sa(a){var b=1,c=T(a,\"opacity\");c&&(b=Number(c));(a=S(a))&&(b*=Sa(a));return b};function Ta(a,b){function c(e){if(P(e)&&\"none\"==T(e,\"display\"))return!1;var d;if((d=e.parentNode)&&d.shadowRoot&&void 0!==e.assignedSlot)d=e.assignedSlot?e.assignedSlot.parentNode:null;else if(e.getDestinationInsertionPoints){var f=e.getDestinationInsertionPoints();0\u003Cf.length&&(d=f[f.length-1])}if(La&&d instanceof ShadowRoot){if(d.host.shadowRoot&&d.host.shadowRoot!==d)return!1;d=d.host}return!d||9!=d.nodeType&&11!=d.nodeType?d&&P(d,\"DETAILS\")&&!d.open&&!P(e,\"SUMMARY\")?!1:!!d&&c(d):!0}return U(a,\n!!b,c)}var X=[\"_\"],Y=g;X[0]in Y||\"undefined\"==typeof Y.execScript||Y.execScript(\"var \"+X[0]);for(var Z;X.length&&(Z=X.shift());)X.length||void 0===Ta?Y[Z]&&Y[Z]!==Object.prototype[Z]?Y=Y[Z]:Y=Y[Z]={}:Y[Z]=Ta;; return this._.apply(null,arguments);}).apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1728447476.529][INFO]: Waiting for pending navigations...
+[1728447476.530][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.540][INFO]: Waiting for pending navigations...
+[1728447476.541][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.541][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ExecuteScript false
+[1728447476.557][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "(//a[@class='yt-simple-endpoint style-scope ytd-compact-station-renderer' and @href='/playlist?list=RDCLAK5uy_kjNBBWqyQ_Cy14B0P4xrcKgd39CRjXXKk&playnext=1&index=1'])[1]"
+}
+[1728447476.557][INFO]: Waiting for pending navigations...
+[1728447476.558][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.581][INFO]: Waiting for pending navigations...
+[1728447476.584][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.584][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.FA43A7F74C2100A2402CCC1BDC1E4EE9.e.115"
+}
+[1728447476.591][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.FA43A7F74C2100A2402CCC1BDC1E4EE9.e.115"
+}
+[1728447476.591][INFO]: Waiting for pending navigations...
+[1728447476.595][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.612][INFO]: Waiting for pending navigations...
+[1728447476.615][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.615][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "Bollywood Dance Hitlist\nThe choicest of recent Bollywood dance tracks to set the tone of every party. DJ, the console is all yours. #hindi #dancemusic #party\n50 tracks"
+[1728447476.625][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.FA43A7F74C2100A2402CCC1BDC1E4EE9.e.115",
+   "using": "xpath",
+   "value": ".//h3[contains(text(), 'Bollywood Dance Hitlist')]"
+}
+[1728447476.625][INFO]: Waiting for pending navigations...
+[1728447476.626][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.644][INFO]: Waiting for pending navigations...
+[1728447476.647][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.647][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.FA43A7F74C2100A2402CCC1BDC1E4EE9.e.116"
+}
+[1728447476.651][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.FA43A7F74C2100A2402CCC1BDC1E4EE9.e.116"
+}
+[1728447476.651][INFO]: Waiting for pending navigations...
+[1728447476.652][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.672][INFO]: Waiting for pending navigations...
+[1728447476.674][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.675][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "Bollywood Dance Hitlist"
+[1728447476.679][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.FA43A7F74C2100A2402CCC1BDC1E4EE9.e.115",
+   "using": "xpath",
+   "value": ".//p[@id='video-count-text']"
+}
+[1728447476.679][INFO]: Waiting for pending navigations...
+[1728447476.680][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.735][INFO]: Waiting for pending navigations...
+[1728447476.744][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.744][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.FA43A7F74C2100A2402CCC1BDC1E4EE9.e.117"
+}
+[1728447476.748][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.FA43A7F74C2100A2402CCC1BDC1E4EE9.e.117"
+}
+[1728447476.748][INFO]: Waiting for pending navigations...
+[1728447476.749][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.767][INFO]: Waiting for pending navigations...
+[1728447476.767][INFO]: Done waiting for pending navigations. Status: ok
+[1728447476.768][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "50 tracks"
+[1728447476.781][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND Navigate {
+   "url": "https://www.youtube.com"
+}
+[1728447476.781][INFO]: Waiting for pending navigations...
+[1728447476.782][INFO]: Done waiting for pending navigations. Status: ok
+[1728447477.110][INFO]: Waiting for pending navigations...
+[1728447479.929][INFO]: Done waiting for pending navigations. Status: ok
+[1728447479.929][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE Navigate
+[1728447484.945][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@href='/channel/UCYfdidRxbB8Qhf0Nx7ioOYw']"
+}
+[1728447484.945][INFO]: Waiting for pending navigations...
+[1728447484.946][INFO]: Done waiting for pending navigations. Status: ok
+[1728447484.963][INFO]: Waiting for pending navigations...
+[1728447484.964][INFO]: Done waiting for pending navigations. Status: ok
+[1728447484.964][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.135"
+}
+[1728447484.968][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.135"
+   } ],
+   "script": "arguments[0].scrollIntoView(true);"
+}
+[1728447484.968][INFO]: Waiting for pending navigations...
+[1728447484.969][INFO]: Done waiting for pending navigations. Status: ok
+[1728447484.975][INFO]: Waiting for pending navigations...
+[1728447484.981][INFO]: Done waiting for pending navigations. Status: ok
+[1728447484.981][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ExecuteScript null
+[1728447484.989][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.135"
+   } ],
+   "script": "arguments[0].click();"
+}
+[1728447484.989][INFO]: Waiting for pending navigations...
+[1728447484.994][INFO]: Done waiting for pending navigations. Status: ok
+[1728447485.135][INFO]: Waiting for pending navigations...
+[1728447485.149][INFO]: Done waiting for pending navigations. Status: ok
+[1728447485.149][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ExecuteScript null
+[1728447487.172][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//ytd-post-renderer[@class='style-scope ytd-rich-item-renderer']"
+}
+[1728447487.172][INFO]: Waiting for pending navigations...
+[1728447488.888][INFO]: Done waiting for pending navigations. Status: ok
+[1728447494.597][INFO]: Waiting for pending navigations...
+[1728447494.632][INFO]: Done waiting for pending navigations. Status: ok
+[1728447494.632][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.164"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.165"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.166"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.167"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.168"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.169"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.170"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.171"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.172"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.173"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.174"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.175"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.176"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.177"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.178"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.179"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.180"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.181"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.182"
+}, "..." ]
+[1728447494.649][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElements {
+   "using": "css selector",
+   "value": "#vote\\-count\\-middle"
+}
+[1728447494.649][INFO]: Waiting for pending navigations...
+[1728447494.657][INFO]: Done waiting for pending navigations. Status: ok
+[1728447494.788][INFO]: Waiting for pending navigations...
+[1728447494.809][INFO]: Done waiting for pending navigations. Status: ok
+[1728447494.809][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.188"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.189"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.190"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.191"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.192"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.193"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.194"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.195"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.196"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.197"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.198"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.199"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.200"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.201"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.202"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.203"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.204"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.205"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.206"
+}, "..." ]
+[1728447494.825][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.165",
+   "using": "xpath",
+   "value": ".//div[@id='header' and @class='style-scope ytd-post-renderer']"
+}
+[1728447494.826][INFO]: Waiting for pending navigations...
+[1728447494.831][INFO]: Done waiting for pending navigations. Status: ok
+[1728447494.958][INFO]: Waiting for pending navigations...
+[1728447494.976][INFO]: Done waiting for pending navigations. Status: ok
+[1728447494.976][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.212"
+}
+[1728447494.981][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.212"
+}
+[1728447494.981][INFO]: Waiting for pending navigations...
+[1728447494.996][INFO]: Done waiting for pending navigations. Status: ok
+[1728447495.102][INFO]: Waiting for pending navigations...
+[1728447495.121][INFO]: Done waiting for pending navigations. Status: ok
+[1728447495.121][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "NEWS ON AIR OFFICIAL\n•\n2 minutes ago"
+[1728447495.128][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.165",
+   "using": "xpath",
+   "value": ".//yt-formatted-string[@id='home-content-text']"
+}
+[1728447495.128][INFO]: Waiting for pending navigations...
+[1728447495.139][INFO]: Done waiting for pending navigations. Status: ok
+[1728447495.246][INFO]: Waiting for pending navigations...
+[1728447495.266][INFO]: Done waiting for pending navigations. Status: ok
+[1728447495.266][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.213"
+}
+[1728447495.270][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.213"
+}
+[1728447495.270][INFO]: Waiting for pending navigations...
+[1728447495.284][INFO]: Done waiting for pending navigations. Status: ok
+[1728447495.408][INFO]: Waiting for pending navigations...
+[1728447495.468][INFO]: Done waiting for pending navigations. Status: ok
+[1728447495.468][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "Reserve Bank of India (#RBI) announces Scholarship Scheme for faculty members from academic institutions. Under the scheme, full-time faculty members teaching economics or finance at any UGC or AIC..."
+[1728447495.475][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.189"
+}
+[1728447495.475][INFO]: Waiting for pending navigations...
+[1728447495.514][INFO]: Done waiting for pending navigations. Status: ok
+[1728447495.615][INFO]: Waiting for pending navigations...
+[1728447495.637][INFO]: Done waiting for pending navigations. Status: ok
+[1728447495.637][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "1"
+[1728447495.679][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.166",
+   "using": "xpath",
+   "value": ".//div[@id='header' and @class='style-scope ytd-post-renderer']"
+}
+[1728447495.680][INFO]: Waiting for pending navigations...
+[1728447495.701][INFO]: Done waiting for pending navigations. Status: ok
+[1728447495.814][INFO]: Waiting for pending navigations...
+[1728447495.841][INFO]: Done waiting for pending navigations. Status: ok
+[1728447495.841][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.214"
+}
+[1728447495.845][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.214"
+}
+[1728447495.845][INFO]: Waiting for pending navigations...
+[1728447495.859][INFO]: Done waiting for pending navigations. Status: ok
+[1728447495.945][INFO]: Waiting for pending navigations...
+[1728447495.965][INFO]: Done waiting for pending navigations. Status: ok
+[1728447495.965][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "Law Chakra\n•\n3 minutes ago"
+[1728447495.984][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.166",
+   "using": "xpath",
+   "value": ".//yt-formatted-string[@id='home-content-text']"
+}
+[1728447495.984][INFO]: Waiting for pending navigations...
+[1728447495.993][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.098][INFO]: Waiting for pending navigations...
+[1728447496.134][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.135][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.215"
+}
+[1728447496.150][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.215"
+}
+[1728447496.151][INFO]: Waiting for pending navigations...
+[1728447496.152][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.198][INFO]: Waiting for pending navigations...
+[1728447496.217][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.217][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "For More Details Visit: https://lawchakra.in/life-sentence-su...#SupremeCourtOfIndia #juvenile #legalnews"
+[1728447496.220][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.190"
+}
+[1728447496.220][INFO]: Waiting for pending navigations...
+[1728447496.234][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.281][INFO]: Waiting for pending navigations...
+[1728447496.317][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.317][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "2"
+[1728447496.329][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.167",
+   "using": "xpath",
+   "value": ".//div[@id='header' and @class='style-scope ytd-post-renderer']"
+}
+[1728447496.329][INFO]: Waiting for pending navigations...
+[1728447496.333][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.416][INFO]: Waiting for pending navigations...
+[1728447496.455][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.455][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.216"
+}
+[1728447496.463][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.216"
+}
+[1728447496.463][INFO]: Waiting for pending navigations...
+[1728447496.484][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.541][INFO]: Waiting for pending navigations...
+[1728447496.542][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.542][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText ""
+[1728447496.548][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.167",
+   "using": "xpath",
+   "value": ".//yt-formatted-string[@id='home-content-text']"
+}
+[1728447496.548][INFO]: Waiting for pending navigations...
+[1728447496.584][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.612][INFO]: Waiting for pending navigations...
+[1728447496.619][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.619][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.219"
+}
+[1728447496.626][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.219"
+}
+[1728447496.626][INFO]: Waiting for pending navigations...
+[1728447496.630][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.681][INFO]: Waiting for pending navigations...
+[1728447496.702][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.702][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText ""
+[1728447496.707][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.25AEB684F3254BB135524F74B846F1F0.e.191"
+}
+[1728447496.707][INFO]: Waiting for pending navigations...
+[1728447496.717][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.729][INFO]: Waiting for pending navigations...
+[1728447496.751][INFO]: Done waiting for pending navigations. Status: ok
+[1728447496.751][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText ""
+[1728447498.331][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND Navigate {
+   "url": "https://www.youtube.com"
+}
+[1728447498.331][INFO]: Waiting for pending navigations...
+[1728447498.349][INFO]: Done waiting for pending navigations. Status: ok
+[1728447498.565][INFO]: Waiting for pending navigations...
+[1728447500.620][INFO]: Done waiting for pending navigations. Status: ok
+[1728447500.621][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE Navigate
+[1728447505.648][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@id='search']"
+}
+[1728447505.648][INFO]: Waiting for pending navigations...
+[1728447505.649][INFO]: Done waiting for pending navigations. Status: ok
+[1728447505.676][INFO]: Waiting for pending navigations...
+[1728447505.677][INFO]: Done waiting for pending navigations. Status: ok
+[1728447505.677][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.226"
+}
+[1728447505.686][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND TypeElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.226",
+   "text": "Movies",
+   "value": [ "M", "o", "v", "i", "e", "s" ]
+}
+[1728447505.686][INFO]: Waiting for pending navigations...
+[1728447505.688][INFO]: Done waiting for pending navigations. Status: ok
+[1728447505.829][INFO]: Waiting for pending navigations...
+[1728447505.861][INFO]: Done waiting for pending navigations. Status: ok
+[1728447505.861][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE TypeElement
+[1728447505.889][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@id='search-icon-legacy']"
+}
+[1728447505.889][INFO]: Waiting for pending navigations...
+[1728447505.911][INFO]: Done waiting for pending navigations. Status: ok
+[1728447505.938][INFO]: Waiting for pending navigations...
+[1728447505.940][INFO]: Done waiting for pending navigations. Status: ok
+[1728447505.940][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.240"
+}
+[1728447505.948][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ClickElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.240"
+}
+[1728447505.948][INFO]: Waiting for pending navigations...
+[1728447505.950][INFO]: Done waiting for pending navigations. Status: ok
+[1728447506.049][INFO]: Waiting for pending navigations...
+[1728447506.103][INFO]: Done waiting for pending navigations. Status: ok
+[1728447506.104][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ClickElement
+[1728447509.123][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElements {
+   "using": "xpath",
+   "value": "(//div[@class='text-wrapper style-scope ytd-video-renderer']) | (//a[@class='yt-simple-endpoint style-scope ytd-promoted-video-renderer'])"
+}
+[1728447509.123][INFO]: Waiting for pending navigations...
+[1728447509.125][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.165][INFO]: Waiting for pending navigations...
+[1728447509.167][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.167][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.251"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.252"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.253"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.254"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.255"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.256"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.257"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.258"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.259"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.260"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.261"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.262"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.263"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.264"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.265"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.266"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.267"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.268"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.269"
+}, "..." ]
+[1728447509.174][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.251",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.174][INFO]: Waiting for pending navigations...
+[1728447509.175][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.195][INFO]: Waiting for pending navigations...
+[1728447509.196][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.196][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.274"
+}
+[1728447509.200][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.274"
+}
+[1728447509.200][INFO]: Waiting for pending navigations...
+[1728447509.201][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.212][INFO]: Waiting for pending navigations...
+[1728447509.213][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.213][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "253K views"
+[1728447509.217][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.252",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.217][INFO]: Waiting for pending navigations...
+[1728447509.218][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.229][INFO]: Waiting for pending navigations...
+[1728447509.230][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.230][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.275"
+}
+[1728447509.233][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.275"
+}
+[1728447509.233][INFO]: Waiting for pending navigations...
+[1728447509.234][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.244][INFO]: Waiting for pending navigations...
+[1728447509.245][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.245][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "22M views"
+[1728447509.249][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.253",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.250][INFO]: Waiting for pending navigations...
+[1728447509.250][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.262][INFO]: Waiting for pending navigations...
+[1728447509.263][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.263][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.276"
+}
+[1728447509.266][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.276"
+}
+[1728447509.266][INFO]: Waiting for pending navigations...
+[1728447509.267][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.279][INFO]: Waiting for pending navigations...
+[1728447509.280][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.280][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "203K views"
+[1728447509.283][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.254",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.283][INFO]: Waiting for pending navigations...
+[1728447509.284][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.296][INFO]: Waiting for pending navigations...
+[1728447509.297][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.297][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.277"
+}
+[1728447509.300][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.277"
+}
+[1728447509.300][INFO]: Waiting for pending navigations...
+[1728447509.301][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.312][INFO]: Waiting for pending navigations...
+[1728447509.317][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.317][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "12M views"
+[1728447509.321][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.255",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.321][INFO]: Waiting for pending navigations...
+[1728447509.322][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.333][INFO]: Waiting for pending navigations...
+[1728447509.334][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.334][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.278"
+}
+[1728447509.337][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.278"
+}
+[1728447509.337][INFO]: Waiting for pending navigations...
+[1728447509.338][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.349][INFO]: Waiting for pending navigations...
+[1728447509.350][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.350][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "1.7M views"
+[1728447509.354][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.256",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.354][INFO]: Waiting for pending navigations...
+[1728447509.355][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.366][INFO]: Waiting for pending navigations...
+[1728447509.367][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.367][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.279"
+}
+[1728447509.370][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.279"
+}
+[1728447509.371][INFO]: Waiting for pending navigations...
+[1728447509.372][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.383][INFO]: Waiting for pending navigations...
+[1728447509.383][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.383][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "37M views"
+[1728447509.388][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.257",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.388][INFO]: Waiting for pending navigations...
+[1728447509.389][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.400][INFO]: Waiting for pending navigations...
+[1728447509.401][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.401][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.280"
+}
+[1728447509.404][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.280"
+}
+[1728447509.404][INFO]: Waiting for pending navigations...
+[1728447509.406][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.416][INFO]: Waiting for pending navigations...
+[1728447509.417][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.417][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "326K views"
+[1728447509.420][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.258",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.421][INFO]: Waiting for pending navigations...
+[1728447509.421][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.433][INFO]: Waiting for pending navigations...
+[1728447509.433][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.433][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.281"
+}
+[1728447509.436][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.281"
+}
+[1728447509.436][INFO]: Waiting for pending navigations...
+[1728447509.437][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.448][INFO]: Waiting for pending navigations...
+[1728447509.449][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.449][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "1.5M views"
+[1728447509.452][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.259",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.452][INFO]: Waiting for pending navigations...
+[1728447509.453][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.465][INFO]: Waiting for pending navigations...
+[1728447509.465][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.466][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.282"
+}
+[1728447509.485][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.282"
+}
+[1728447509.485][INFO]: Waiting for pending navigations...
+[1728447509.487][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.500][INFO]: Waiting for pending navigations...
+[1728447509.501][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.501][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "569K views"
+[1728447509.510][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.260",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.510][INFO]: Waiting for pending navigations...
+[1728447509.511][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.524][INFO]: Waiting for pending navigations...
+[1728447509.525][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.525][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.283"
+}
+[1728447509.529][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.283"
+}
+[1728447509.529][INFO]: Waiting for pending navigations...
+[1728447509.530][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.541][INFO]: Waiting for pending navigations...
+[1728447509.542][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.542][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "66K views"
+[1728447509.545][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.261",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.545][INFO]: Waiting for pending navigations...
+[1728447509.546][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.557][INFO]: Waiting for pending navigations...
+[1728447509.558][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.558][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.284"
+}
+[1728447509.561][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.284"
+}
+[1728447509.561][INFO]: Waiting for pending navigations...
+[1728447509.562][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.572][INFO]: Waiting for pending navigations...
+[1728447509.573][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.573][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "13M views"
+[1728447509.576][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.262",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.576][INFO]: Waiting for pending navigations...
+[1728447509.577][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.588][INFO]: Waiting for pending navigations...
+[1728447509.589][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.589][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.285"
+}
+[1728447509.592][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.285"
+}
+[1728447509.592][INFO]: Waiting for pending navigations...
+[1728447509.593][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.602][INFO]: Waiting for pending navigations...
+[1728447509.603][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.603][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "1.3M views"
+[1728447509.606][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.263",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.606][INFO]: Waiting for pending navigations...
+[1728447509.607][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.617][INFO]: Waiting for pending navigations...
+[1728447509.618][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.618][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.286"
+}
+[1728447509.621][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.286"
+}
+[1728447509.621][INFO]: Waiting for pending navigations...
+[1728447509.622][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.632][INFO]: Waiting for pending navigations...
+[1728447509.633][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.633][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "265K views"
+[1728447509.637][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.264",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.637][INFO]: Waiting for pending navigations...
+[1728447509.638][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.651][INFO]: Waiting for pending navigations...
+[1728447509.652][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.652][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.287"
+}
+[1728447509.655][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.287"
+}
+[1728447509.655][INFO]: Waiting for pending navigations...
+[1728447509.656][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.666][INFO]: Waiting for pending navigations...
+[1728447509.667][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.667][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "72K views"
+[1728447509.670][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.265",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.670][INFO]: Waiting for pending navigations...
+[1728447509.671][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.683][INFO]: Waiting for pending navigations...
+[1728447509.684][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.684][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.288"
+}
+[1728447509.687][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.288"
+}
+[1728447509.687][INFO]: Waiting for pending navigations...
+[1728447509.688][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.699][INFO]: Waiting for pending navigations...
+[1728447509.699][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.699][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "147K views"
+[1728447509.704][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.266",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.704][INFO]: Waiting for pending navigations...
+[1728447509.704][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.715][INFO]: Waiting for pending navigations...
+[1728447509.716][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.716][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.289"
+}
+[1728447509.719][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.289"
+}
+[1728447509.719][INFO]: Waiting for pending navigations...
+[1728447509.720][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.730][INFO]: Waiting for pending navigations...
+[1728447509.731][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.731][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "1.8M views"
+[1728447509.734][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.267",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.734][INFO]: Waiting for pending navigations...
+[1728447509.735][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.746][INFO]: Waiting for pending navigations...
+[1728447509.747][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.747][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.290"
+}
+[1728447509.749][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.290"
+}
+[1728447509.749][INFO]: Waiting for pending navigations...
+[1728447509.750][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.760][INFO]: Waiting for pending navigations...
+[1728447509.761][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.761][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "1.5M views"
+[1728447509.765][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.268",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447509.765][INFO]: Waiting for pending navigations...
+[1728447509.766][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.779][INFO]: Waiting for pending navigations...
+[1728447509.780][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.780][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.291"
+}
+[1728447509.784][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.82C2BF24F5FE7246DC33B83998CDC537.e.291"
+}
+[1728447509.784][INFO]: Waiting for pending navigations...
+[1728447509.785][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.796][INFO]: Waiting for pending navigations...
+[1728447509.797][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.797][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "12M views"
+[1728447509.802][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND Navigate {
+   "url": "https://www.youtube.com"
+}
+[1728447509.802][INFO]: Waiting for pending navigations...
+[1728447509.803][INFO]: Done waiting for pending navigations. Status: ok
+[1728447509.993][INFO]: Waiting for pending navigations...
+[1728447512.090][INFO]: Done waiting for pending navigations. Status: ok
+[1728447512.090][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE Navigate
+[1728447517.099][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@id='search']"
+}
+[1728447517.100][INFO]: Waiting for pending navigations...
+[1728447517.101][INFO]: Done waiting for pending navigations. Status: ok
+[1728447517.113][INFO]: Waiting for pending navigations...
+[1728447517.114][INFO]: Done waiting for pending navigations. Status: ok
+[1728447517.114][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.298"
+}
+[1728447517.118][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND TypeElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.298",
+   "text": "Music",
+   "value": [ "M", "u", "s", "i", "c" ]
+}
+[1728447517.119][INFO]: Waiting for pending navigations...
+[1728447517.120][INFO]: Done waiting for pending navigations. Status: ok
+[1728447517.231][INFO]: Waiting for pending navigations...
+[1728447517.238][INFO]: Done waiting for pending navigations. Status: ok
+[1728447517.238][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE TypeElement
+[1728447517.244][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@id='search-icon-legacy']"
+}
+[1728447517.244][INFO]: Waiting for pending navigations...
+[1728447517.248][INFO]: Done waiting for pending navigations. Status: ok
+[1728447517.283][INFO]: Waiting for pending navigations...
+[1728447517.284][INFO]: Done waiting for pending navigations. Status: ok
+[1728447517.284][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.313"
+}
+[1728447517.287][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ClickElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.313"
+}
+[1728447517.287][INFO]: Waiting for pending navigations...
+[1728447517.288][INFO]: Done waiting for pending navigations. Status: ok
+[1728447517.357][INFO]: Waiting for pending navigations...
+[1728447517.403][INFO]: Done waiting for pending navigations. Status: ok
+[1728447517.403][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ClickElement
+[1728447520.418][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElements {
+   "using": "xpath",
+   "value": "(//div[@class='text-wrapper style-scope ytd-video-renderer']) | (//a[@class='yt-simple-endpoint style-scope ytd-promoted-video-renderer'])"
+}
+[1728447520.418][INFO]: Waiting for pending navigations...
+[1728447520.450][INFO]: Done waiting for pending navigations. Status: ok
+[1728447520.484][INFO]: Waiting for pending navigations...
+[1728447520.507][INFO]: Done waiting for pending navigations. Status: ok
+[1728447520.507][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.323"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.324"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.325"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.326"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.327"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.328"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.329"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.330"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.331"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.332"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.333"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.334"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.335"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.336"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.337"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.338"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.339"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.340"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.341"
+}, "..." ]
+[1728447520.514][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.323",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447520.514][INFO]: Waiting for pending navigations...
+[1728447520.522][INFO]: Done waiting for pending navigations. Status: ok
+[1728447520.552][INFO]: Waiting for pending navigations...
+[1728447520.564][INFO]: Done waiting for pending navigations. Status: ok
+[1728447520.564][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.350"
+}
+[1728447520.568][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.350"
+}
+[1728447520.568][INFO]: Waiting for pending navigations...
+[1728447520.569][INFO]: Done waiting for pending navigations. Status: ok
+[1728447520.582][INFO]: Waiting for pending navigations...
+[1728447520.589][INFO]: Done waiting for pending navigations. Status: ok
+[1728447520.589][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "2.1M views"
+[1728447520.594][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.324",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447520.594][INFO]: Waiting for pending navigations...
+[1728447520.605][INFO]: Done waiting for pending navigations. Status: ok
+[1728447520.632][INFO]: Waiting for pending navigations...
+[1728447520.645][INFO]: Done waiting for pending navigations. Status: ok
+[1728447520.645][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.351"
+}
+[1728447520.650][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.152884A2D560168678562105979A4053.e.351"
+}
+[1728447520.650][INFO]: Waiting for pending navigations...
+[1728447520.652][INFO]: Done waiting for pending navigations. Status: ok
+[1728447520.662][INFO]: Waiting for pending navigations...
+[1728447520.663][INFO]: Done waiting for pending navigations. Status: ok
+[1728447520.663][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "103M views"
+[1728447520.668][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND Navigate {
+   "url": "https://www.youtube.com"
+}
+[1728447520.668][INFO]: Waiting for pending navigations...
+[1728447520.669][INFO]: Done waiting for pending navigations. Status: ok
+[1728447520.844][INFO]: Waiting for pending navigations...
+[1728447522.806][INFO]: Done waiting for pending navigations. Status: ok
+[1728447522.807][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE Navigate
+[1728447527.821][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//input[@id='search']"
+}
+[1728447527.821][INFO]: Waiting for pending navigations...
+[1728447527.823][INFO]: Done waiting for pending navigations. Status: ok
+[1728447527.842][INFO]: Waiting for pending navigations...
+[1728447527.843][INFO]: Done waiting for pending navigations. Status: ok
+[1728447527.843][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.357"
+}
+[1728447527.848][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND TypeElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.357",
+   "text": "Games",
+   "value": [ "G", "a", "m", "e", "s" ]
+}
+[1728447527.848][INFO]: Waiting for pending navigations...
+[1728447527.849][INFO]: Done waiting for pending navigations. Status: ok
+[1728447527.971][INFO]: Waiting for pending navigations...
+[1728447527.977][INFO]: Done waiting for pending navigations. Status: ok
+[1728447527.977][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE TypeElement
+[1728447527.983][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//button[@id='search-icon-legacy']"
+}
+[1728447527.983][INFO]: Waiting for pending navigations...
+[1728447527.988][INFO]: Done waiting for pending navigations. Status: ok
+[1728447528.021][INFO]: Waiting for pending navigations...
+[1728447528.022][INFO]: Done waiting for pending navigations. Status: ok
+[1728447528.022][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.372"
+}
+[1728447528.026][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND ClickElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.372"
+}
+[1728447528.026][INFO]: Waiting for pending navigations...
+[1728447528.027][INFO]: Done waiting for pending navigations. Status: ok
+[1728447528.093][INFO]: Waiting for pending navigations...
+[1728447528.138][INFO]: Done waiting for pending navigations. Status: ok
+[1728447528.138][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE ClickElement
+[1728447531.154][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindElements {
+   "using": "xpath",
+   "value": "(//div[@class='text-wrapper style-scope ytd-video-renderer']) | (//a[@class='yt-simple-endpoint style-scope ytd-promoted-video-renderer'])"
+}
+[1728447531.154][INFO]: Waiting for pending navigations...
+[1728447531.163][INFO]: Done waiting for pending navigations. Status: ok
+[1728447531.205][INFO]: Waiting for pending navigations...
+[1728447531.210][INFO]: Done waiting for pending navigations. Status: ok
+[1728447531.210][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.393"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.394"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.395"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.396"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.397"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.398"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.399"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.400"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.401"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.402"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.403"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.404"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.405"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.406"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.407"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.408"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.409"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.410"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.411"
+}, "..." ]
+[1728447531.215][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.393",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447531.215][INFO]: Waiting for pending navigations...
+[1728447531.216][INFO]: Done waiting for pending navigations. Status: ok
+[1728447531.229][INFO]: Waiting for pending navigations...
+[1728447531.229][INFO]: Done waiting for pending navigations. Status: ok
+[1728447531.229][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.415"
+}
+[1728447531.233][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.415"
+}
+[1728447531.233][INFO]: Waiting for pending navigations...
+[1728447531.234][INFO]: Done waiting for pending navigations. Status: ok
+[1728447531.245][INFO]: Waiting for pending navigations...
+[1728447531.245][INFO]: Done waiting for pending navigations. Status: ok
+[1728447531.245][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "717K views"
+[1728447531.249][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND FindChildElement {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.394",
+   "using": "xpath",
+   "value": ".//span[contains(text(),'views')]"
+}
+[1728447531.249][INFO]: Waiting for pending navigations...
+[1728447531.250][INFO]: Done waiting for pending navigations. Status: ok
+[1728447531.261][INFO]: Waiting for pending navigations...
+[1728447531.262][INFO]: Done waiting for pending navigations. Status: ok
+[1728447531.262][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE FindChildElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.416"
+}
+[1728447531.265][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND GetElementText {
+   "id": "f.999DBA84B92266CDE4301BD855FED418.d.F8B02FAD61B0D67F736D31EDA9D52039.e.416"
+}
+[1728447531.265][INFO]: Waiting for pending navigations...
+[1728447531.266][INFO]: Done waiting for pending navigations. Status: ok
+[1728447531.276][INFO]: Waiting for pending navigations...
+[1728447531.277][INFO]: Done waiting for pending navigations. Status: ok
+[1728447531.277][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE GetElementText "103M views"
+[1728447531.284][INFO]: [277380e5eb4f16972b995ffde6c9978d] COMMAND CloseWindow {
+}
+[1728447531.533][SEVERE]: Unable to receive message from renderer
+[1728447531.774][INFO]: [277380e5eb4f16972b995ffde6c9978d] RESPONSE CloseWindow [  ]

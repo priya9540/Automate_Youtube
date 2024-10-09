@@ -20,7 +20,8 @@ public class ExcelReaderUtil {
             Sheet sheet = workbook.getSheetAt(0); // read the first sheet
 
             List<Object[]> records = new ArrayList<>();
-            int rowNum = sheet.getFirstRowNum() + 1; // Skip the header row
+             int rowNum = sheet.getFirstRowNum() + 1; // Skip the header row
+           // int rowNum = sheet.getFirstRowNum() + 0;
             int totalRows = findLastNonBlankRow(sheet);
 
             for (int i = rowNum; i <= totalRows; i++) {
